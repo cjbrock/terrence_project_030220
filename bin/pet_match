@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'pry' 
+require 'nokogiri'
+require 'open-uri'
+
+require_relative '../lib/pet_match/cli'
+
+require_relative '../lib/pet_match/scraper'
+
+require_relative '../lib/pet_match/pet'
+
+Cli.new.call
